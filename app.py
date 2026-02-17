@@ -90,7 +90,7 @@ html, body, [class*="css"] {font-family: 'Inter', sans-serif;}
 
 /* RADIO */
 div[data-testid="stRadio"] > div {flex-direction: row !important; gap: 8px !important;}
-div[data-testid="stRadio"] label {background: #f1f5f9 !important; padding: 6px 18px !important; border-radius: 10px !important; font-weight: 700 !important; font-size: 0.8rem !important; color: #334155 !important;}
+div[data-testid="stRadio"] label {background: #f1f5f9 !important; padding: 6px 18px !important; border-radius: 10px !important; font-weight: 500 !important; font-size: 0.8rem !important; color: #0f172a !important;}
 div[data-testid="stRadio"] label[data-checked="true"] {background: #0f172a !important; color: white !important;}
 
 /* BOTTOM CARDS */
@@ -211,9 +211,9 @@ fig.update_layout(
     height=500,
     paper_bgcolor='white',
     plot_bgcolor='white',
-    xaxis={"showgrid": False, "color": "#64748b", "zeroline": False},
-    yaxis={"gridcolor": "#f1f5f9", "color": "#64748b", "tickformat": "$,", "zeroline": False},
-    font={"color": "#475569", "family": "Inter"}
+    xaxis={"showgrid": False, "color": "#1e293b", "zeroline": False},
+    yaxis={"gridcolor": "#f1f5f9", "color": "#1e293b", "tickformat": "$,", "zeroline": False},
+    font={"color": "#1e293b", "family": "Inter", "size": 12}
 )
 
 st.plotly_chart(fig, use_container_width=True, config={'displayModeBar': False})
