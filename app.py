@@ -43,7 +43,7 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 .stApp {background: #f8fafc;}
-.block-container {padding-top: 0 !important; padding-bottom: 2rem !important; max-width: 1200px !important; margin-top: -5rem !important;}
+.block-container {padding-top: 0 !important; padding-bottom: 2rem !important; max-width: 1200px !important; margin-top: -2rem !important;}
 html, body, [class*="css"] {font-family: 'Inter', sans-serif;}
 #MainMenu, footer, header {visibility: hidden;}
 
