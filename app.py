@@ -43,7 +43,7 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 .stApp {background: #f8fafc;}
-.block-container {padding-top: 0 !important; padding-bottom: 2rem !important; max-width: 1200px !important;}
+.block-container {padding-top: 0 !important; padding-bottom: 2rem !important; max-width: 1200px !important; margin-top: -5rem !important;}
 html, body, [class*="css"] {font-family: 'Inter', sans-serif;}
 #MainMenu, footer, header {visibility: hidden;}
 
@@ -61,7 +61,7 @@ html, body, [class*="css"] {font-family: 'Inter', sans-serif;}
 .hero-card {background: rgba(255,255,255,0.7); backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.6); border-radius: 2.5rem; padding: 4rem; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.05); display: flex; gap: 4rem; align-items: center; margin-bottom: 3rem;}
 .hero-left {flex: 1.5;}
 .hero-right {flex: 1;}
-.hero-title {font-size: 3.5rem; font-weight: 800; line-height: 1.08; color: #0f172a; margin: 0 0 1.5rem 0; letter-spacing: -0.02em;}
+.hero-title {font-size: 3.5rem; font-weight: 800; line-height: 1.08; color: #0f172a !important; margin: 0 0 1.5rem 0; letter-spacing: -0.02em;}
 .hero-accent {color: #f97316;}
 .hero-p {font-size: 1.1rem; color: #475569; line-height: 1.7; margin: 0 0 3rem 0; max-width: 520px;}
 .btn-row {display: flex; gap: 1rem; align-items: center;}
