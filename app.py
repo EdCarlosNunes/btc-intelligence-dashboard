@@ -90,8 +90,10 @@ html, body, [class*="css"] {font-family: 'Inter', sans-serif;}
 
 /* RADIO */
 div[data-testid="stRadio"] > div {flex-direction: row !important; gap: 8px !important;}
-div[data-testid="stRadio"] label {background: #f1f5f9 !important; padding: 6px 18px !important; border-radius: 10px !important; font-weight: 500 !important; font-size: 0.8rem !important; color: #0f172a !important;}
+div[data-testid="stRadio"] label {background: #f1f5f9 !important; padding: 6px 18px !important; border-radius: 10px !important; font-weight: 500 !important; font-size: 0.85rem !important; color: #000000 !important;}
+div[data-testid="stRadio"] label p, div[data-testid="stRadio"] label span, div[data-testid="stRadio"] label div {color: #000000 !important;}
 div[data-testid="stRadio"] label[data-checked="true"] {background: #0f172a !important; color: white !important;}
+div[data-testid="stRadio"] label[data-checked="true"] p, div[data-testid="stRadio"] label[data-checked="true"] span, div[data-testid="stRadio"] label[data-checked="true"] div {color: white !important;}
 
 /* BOTTOM CARDS */
 .bottom-white {background: white; padding: 2.5rem; border-radius: 2.5rem; border: 1px solid #f1f5f9; height: 100%;}
@@ -211,9 +213,9 @@ fig.update_layout(
     height=500,
     paper_bgcolor='white',
     plot_bgcolor='white',
-    xaxis={"showgrid": False, "color": "#1e293b", "zeroline": False},
-    yaxis={"gridcolor": "#f1f5f9", "color": "#1e293b", "tickformat": "$,", "zeroline": False},
-    font={"color": "#1e293b", "family": "Inter", "size": 12}
+    xaxis={"showgrid": False, "color": "#000000", "zeroline": False, "tickfont": {"color": "#000000", "size": 12}},
+    yaxis={"gridcolor": "#f1f5f9", "color": "#000000", "tickformat": "$,", "zeroline": False, "tickfont": {"color": "#000000", "size": 12}},
+    font={"color": "#000000", "family": "Inter", "size": 12}
 )
 
 st.plotly_chart(fig, use_container_width=True, config={'displayModeBar': False})
